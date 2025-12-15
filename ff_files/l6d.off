@@ -1,0 +1,147 @@
+!!index array str
+ "L6D"
+!entry.L6D.unit.atoms table  str name  str type  int typex  int resx  int flags  int seq  int elmnt  dbl chg
+ "N" "N" 0 1 131072 1 7 -0.415700
+ "H" "H" 0 1 131072 2 1 0.271900
+ "CA" "CX" 0 1 131072 3 6 0.014118
+ "HA" "H1" 0 1 131072 4 1 0.121651
+ "CB" "2C" 0 1 131072 5 6 -0.083030
+ "HB2" "HC" 0 1 131072 6 1 0.062317
+ "HB3" "HC" 0 1 131072 7 1 0.062317
+ "CG" "3C" 0 1 131072 8 6 -0.125443
+ "HG" "HC" 0 1 131072 9 1 0.100116
+ "CD1" "CT" 0 1 131072 10 6 0.562775
+ "FD1" "F" 0 1 131072 11 9 -0.193866
+ "FD2" "F" 0 1 131072 12 9 -0.193866
+ "FD3" "F" 0 1 131072 13 9 -0.193866
+ "CD2" "CT" 0 1 131072 14 6 0.562775
+ "FD4" "F" 0 1 131072 15 9 -0.193866
+ "FD5" "F" 0 1 131072 16 9 -0.193866
+ "FD6" "F" 0 1 131072 17 9 -0.193866
+ "C" "C" 0 1 131072 18 6 0.597300
+ "O" "O" 0 1 131072 19 8 -0.567900
+!entry.L6D.unit.atomspertinfo table  str pname  str ptype  int ptypex  int pelmnt  dbl pchg
+ "N" "N" 0 -1 0.0
+ "H" "H" 0 -1 0.0
+ "CA" "CX" 0 -1 0.0
+ "HA" "H1" 0 -1 0.0
+ "CB" "2C" 0 -1 0.0
+ "HB2" "HC" 0 -1 0.0
+ "HB3" "HC" 0 -1 0.0
+ "CG" "3C" 0 -1 0.0
+ "HG" "HC" 0 -1 0.0
+ "CD1" "CT" 0 -1 0.0
+ "FD1" "F" 0 -1 0.0
+ "FD2" "F" 0 -1 0.0
+ "FD3" "F" 0 -1 0.0
+ "CD2" "CT" 0 -1 0.0
+ "FD4" "F" 0 -1 0.0
+ "FD5" "F" 0 -1 0.0
+ "FD6" "F" 0 -1 0.0
+ "C" "C" 0 -1 0.0
+ "O" "O" 0 -1 0.0
+!entry.L6D.unit.boundbox array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.L6D.unit.childsequence single int
+ 2
+!entry.L6D.unit.connect array int
+ 1
+ 18
+!entry.L6D.unit.connectivity table  int atom1x  int atom2x  int flags
+ 1 2 1
+ 1 3 1
+ 3 4 1
+ 3 5 1
+ 3 18 1
+ 5 6 1
+ 5 7 1
+ 5 8 1
+ 8 9 1
+ 8 10 1
+ 8 14 1
+ 10 11 1
+ 10 12 1
+ 10 13 1
+ 14 15 1
+ 14 16 1
+ 14 17 1
+ 18 19 1
+!entry.L6D.unit.hierarchy table  str abovetype  int abovex  str belowtype  int belowx
+ "U" 0 "R" 1
+ "R" 1 "A" 1
+ "R" 1 "A" 2
+ "R" 1 "A" 3
+ "R" 1 "A" 4
+ "R" 1 "A" 5
+ "R" 1 "A" 6
+ "R" 1 "A" 7
+ "R" 1 "A" 8
+ "R" 1 "A" 9
+ "R" 1 "A" 10
+ "R" 1 "A" 11
+ "R" 1 "A" 12
+ "R" 1 "A" 13
+ "R" 1 "A" 14
+ "R" 1 "A" 15
+ "R" 1 "A" 16
+ "R" 1 "A" 17
+ "R" 1 "A" 18
+ "R" 1 "A" 19
+!entry.L6D.unit.name single str
+ "L6D"
+!entry.L6D.unit.positions table  dbl x  dbl y  dbl z
+ 3.325770 1.547909 -1.607204E-06
+ 3.909407 0.723611 -2.739882E-06
+ 3.970048 2.845795 -1.311163E-07
+ 3.665915 3.410809 -0.906964
+ 3.570006 3.668145 1.253958
+ 2.457751 3.726640 1.232423
+ 3.831856 3.092976 2.168922
+ 4.067823 5.137019 1.430899
+ 3.516061 5.504185 2.326301
+ 3.668209 6.053706 0.250559
+ 3.950053 7.374283 0.554036
+ 2.310456 5.951999 0.007968
+ 4.356056 5.715208 -0.900516
+ 5.565030 5.277409 1.802467
+ 5.823078 6.574027 2.211918
+ 6.396710 5.005490 0.739219
+ 5.876587 4.431460 2.851273
+ 5.485541 2.705207 -4.398755E-06
+ 6.008824 1.593175 -8.449768E-06
+!entry.L6D.unit.residueconnect table  int c1x  int c2x  int c3x  int c4x  int c5x  int c6x
+ 1 18 0 0 0 0
+!entry.L6D.unit.residues table  str name  int seq  int childseq  int startatomx  str restype  int imagingx
+ "L6D" 1 20 1 "?" 0
+!entry.L6D.unit.residuesPdbSequenceNumber array int
+ 0
+!entry.L6D.unit.solventcap array dbl
+ -1.000000
+ 0.0
+ 0.0
+ 0.0
+ 0.0
+!entry.L6D.unit.velocities table  dbl x  dbl y  dbl z
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0
+ 0.0 0.0 0.0

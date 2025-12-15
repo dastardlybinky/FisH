@@ -1,0 +1,644 @@
+REMARK   1 CREATED WITH OPENMM 8.1.1, 2025-11-29
+CRYST1   62.698   65.075   61.021  90.00  90.00  90.00 P 1           1 
+HETATM    1  N   V6G A   1      32.772  40.383  39.041  1.00  0.00           N  
+HETATM    2  H   V6G A   1      32.862  41.161  39.679  1.00  0.00           H  
+HETATM    3  CA  V6G A   1      32.357  40.662  37.687  1.00  0.00           C  
+HETATM    4  CB  V6G A   1      31.261  39.646  37.323  1.00  0.00           C  
+HETATM    5  CG1 V6G A   1      29.888  39.666  38.014  1.00  0.00           C  
+HETATM    6  FG1 V6G A   1      30.016  39.688  39.367  1.00  0.00           F  
+HETATM    7  FG2 V6G A   1      29.210  38.467  37.734  1.00  0.00           F  
+HETATM    8  FG3 V6G A   1      29.073  40.761  37.615  1.00  0.00           F  
+HETATM    9  CG2 V6G A   1      30.963  39.606  35.872  1.00  0.00           C  
+HETATM   10  FG4 V6G A   1      30.198  38.495  35.567  1.00  0.00           F  
+HETATM   11  FG5 V6G A   1      32.109  39.619  35.180  1.00  0.00           F  
+HETATM   12  FG6 V6G A   1      30.252  40.791  35.577  1.00  0.00           F  
+HETATM   13  HB  V6G A   1      31.712  38.678  37.545  1.00  0.00           H  
+HETATM   14  HA  V6G A   1      33.157  40.397  36.995  1.00  0.00           H  
+HETATM   15  C   V6G A   1      31.807  42.067  37.626  1.00  0.00           C  
+HETATM   16  O   V6G A   1      31.631  42.763  38.626  1.00  0.00           O  
+HETATM   17  N   V6G A   2      22.114  30.565  35.660  1.00  0.00           N  
+HETATM   18  H   V6G A   2      21.871  31.167  34.886  1.00  0.00           H  
+HETATM   19  CA  V6G A   2      23.535  30.360  35.970  1.00  0.00           C  
+HETATM   20  CB  V6G A   2      23.678  29.292  37.063  1.00  0.00           C  
+HETATM   21  CG1 V6G A   2      23.182  27.851  36.719  1.00  0.00           C  
+HETATM   22  FG1 V6G A   2      21.820  27.842  36.380  1.00  0.00           F  
+HETATM   23  FG2 V6G A   2      23.331  26.857  37.655  1.00  0.00           F  
+HETATM   24  FG3 V6G A   2      23.904  27.501  35.600  1.00  0.00           F  
+HETATM   25  CG2 V6G A   2      25.139  29.217  37.499  1.00  0.00           C  
+HETATM   26  FG4 V6G A   2      25.164  28.444  38.644  1.00  0.00           F  
+HETATM   27  FG5 V6G A   2      25.528  30.464  37.850  1.00  0.00           F  
+HETATM   28  FG6 V6G A   2      25.953  28.756  36.510  1.00  0.00           F  
+HETATM   29  HB  V6G A   2      23.122  29.614  37.943  1.00  0.00           H  
+HETATM   30  HA  V6G A   2      23.907  31.289  36.402  1.00  0.00           H  
+HETATM   31  C   V6G A   2      24.259  30.017  34.635  1.00  0.00           C  
+HETATM   32  O   V6G A   2      25.391  30.457  34.336  1.00  0.00           O  
+HETATM   33  N   V6G A   3      30.946  25.603  17.487  1.00  0.00           N  
+HETATM   34  H   V6G A   3      30.645  25.296  18.401  1.00  0.00           H  
+HETATM   35  CA  V6G A   3      29.958  26.158  16.494  1.00  0.00           C  
+HETATM   36  CB  V6G A   3      29.152  24.968  15.910  1.00  0.00           C  
+HETATM   37  CG1 V6G A   3      28.102  24.491  16.899  1.00  0.00           C  
+HETATM   38  FG1 V6G A   3      28.762  24.156  18.086  1.00  0.00           F  
+HETATM   39  FG2 V6G A   3      27.494  23.426  16.413  1.00  0.00           F  
+HETATM   40  FG3 V6G A   3      27.207  25.540  17.122  1.00  0.00           F  
+HETATM   41  CG2 V6G A   3      28.472  25.204  14.555  1.00  0.00           C  
+HETATM   42  FG4 V6G A   3      27.467  24.275  14.371  1.00  0.00           F  
+HETATM   43  FG5 V6G A   3      29.455  25.153  13.559  1.00  0.00           F  
+HETATM   44  FG6 V6G A   3      27.971  26.459  14.523  1.00  0.00           F  
+HETATM   45  HB  V6G A   3      29.803  24.094  15.876  1.00  0.00           H  
+HETATM   46  HA  V6G A   3      30.489  26.612  15.657  1.00  0.00           H  
+HETATM   47  C   V6G A   3      29.167  27.350  17.040  1.00  0.00           C  
+HETATM   48  O   V6G A   3      29.023  27.425  18.281  1.00  0.00           O  
+HETATM   49  N   V6G A   4      32.571  46.481  42.788  1.00  0.00           N  
+HETATM   50  H   V6G A   4      32.013  45.640  42.817  1.00  0.00           H  
+HETATM   51  CA  V6G A   4      31.806  47.611  43.350  1.00  0.00           C  
+HETATM   52  CB  V6G A   4      30.745  48.100  42.286  1.00  0.00           C  
+HETATM   53  CG1 V6G A   4      29.771  47.074  41.699  1.00  0.00           C  
+HETATM   54  FG1 V6G A   4      30.294  45.830  41.692  1.00  0.00           F  
+HETATM   55  FG2 V6G A   4      29.308  47.390  40.432  1.00  0.00           F  
+HETATM   56  FG3 V6G A   4      28.629  47.017  42.476  1.00  0.00           F  
+HETATM   57  CG2 V6G A   4      30.057  49.336  42.727  1.00  0.00           C  
+HETATM   58  FG4 V6G A   4      29.425  49.956  41.700  1.00  0.00           F  
+HETATM   59  FG5 V6G A   4      30.856  50.232  43.297  1.00  0.00           F  
+HETATM   60  FG6 V6G A   4      28.974  49.068  43.636  1.00  0.00           F  
+HETATM   61  HB  V6G A   4      31.318  48.380  41.402  1.00  0.00           H  
+HETATM   62  HA  V6G A   4      32.410  48.430  43.741  1.00  0.00           H  
+HETATM   63  C   V6G A   4      31.079  47.230  44.618  1.00  0.00           C  
+HETATM   64  O   V6G A   4      30.712  46.119  44.978  1.00  0.00           O  
+HETATM   65  N   V6G A   5      34.463  30.527  21.441  1.00  0.00           N  
+HETATM   66  H   V6G A   5      34.977  30.053  20.712  1.00  0.00           H  
+HETATM   67  CA  V6G A   5      33.375  31.316  20.788  1.00  0.00           C  
+HETATM   68  CB  V6G A   5      33.360  32.728  21.413  1.00  0.00           C  
+HETATM   69  CG1 V6G A   5      34.564  33.606  21.109  1.00  0.00           C  
+HETATM   70  FG1 V6G A   5      35.821  32.959  21.081  1.00  0.00           F  
+HETATM   71  FG2 V6G A   5      34.608  34.608  22.072  1.00  0.00           F  
+HETATM   72  FG3 V6G A   5      34.404  34.259  19.901  1.00  0.00           F  
+HETATM   73  CG2 V6G A   5      32.074  33.445  21.188  1.00  0.00           C  
+HETATM   74  FG4 V6G A   5      32.197  34.743  21.658  1.00  0.00           F  
+HETATM   75  FG5 V6G A   5      30.937  32.874  21.786  1.00  0.00           F  
+HETATM   76  FG6 V6G A   5      31.753  33.683  19.876  1.00  0.00           F  
+HETATM   77  HB  V6G A   5      33.414  32.641  22.498  1.00  0.00           H  
+HETATM   78  HA  V6G A   5      32.408  30.857  20.993  1.00  0.00           H  
+HETATM   79  C   V6G A   5      33.462  31.231  19.248  1.00  0.00           C  
+HETATM   80  O   V6G A   5      34.572  31.004  18.751  1.00  0.00           O  
+HETATM   81  N   V6G A   6      45.800  39.503  25.287  1.00  0.00           N  
+HETATM   82  H   V6G A   6      45.050  39.021  24.813  1.00  0.00           H  
+HETATM   83  CA  V6G A   6      47.170  39.163  24.846  1.00  0.00           C  
+HETATM   84  CB  V6G A   6      47.673  38.012  25.774  1.00  0.00           C  
+HETATM   85  CG1 V6G A   6      47.174  36.590  25.423  1.00  0.00           C  
+HETATM   86  FG1 V6G A   6      45.818  36.793  25.183  1.00  0.00           F  
+HETATM   87  FG2 V6G A   6      47.480  35.759  26.461  1.00  0.00           F  
+HETATM   88  FG3 V6G A   6      47.783  36.199  24.298  1.00  0.00           F  
+HETATM   89  CG2 V6G A   6      49.172  37.865  25.694  1.00  0.00           C  
+HETATM   90  FG4 V6G A   6      49.548  36.689  26.345  1.00  0.00           F  
+HETATM   91  FG5 V6G A   6      49.676  38.966  26.377  1.00  0.00           F  
+HETATM   92  FG6 V6G A   6      49.663  37.905  24.419  1.00  0.00           F  
+HETATM   93  HB  V6G A   6      47.434  38.284  26.802  1.00  0.00           H  
+HETATM   94  HA  V6G A   6      47.828  39.988  25.120  1.00  0.00           H  
+HETATM   95  C   V6G A   6      47.167  39.118  23.306  1.00  0.00           C  
+HETATM   96  O   V6G A   6      47.091  38.017  22.720  1.00  0.00           O  
+HETATM   97  N   V6G A   7      21.858  33.816  43.786  1.00  0.00           N  
+HETATM   98  H   V6G A   7      21.515  34.649  44.242  1.00  0.00           H  
+HETATM   99  CA  V6G A   7      23.224  33.316  43.711  1.00  0.00           C  
+HETATM  100  CB  V6G A   7      23.311  31.801  44.006  1.00  0.00           C  
+HETATM  101  CG1 V6G A   7      23.029  30.918  42.797  1.00  0.00           C  
+HETATM  102  FG1 V6G A   7      21.889  31.427  42.177  1.00  0.00           F  
+HETATM  103  FG2 V6G A   7      22.882  29.662  43.288  1.00  0.00           F  
+HETATM  104  FG3 V6G A   7      24.135  31.020  41.907  1.00  0.00           F  
+HETATM  105  CG2 V6G A   7      24.669  31.533  44.540  1.00  0.00           C  
+HETATM  106  FG4 V6G A   7      24.954  30.194  44.589  1.00  0.00           F  
+HETATM  107  FG5 V6G A   7      24.795  32.050  45.823  1.00  0.00           F  
+HETATM  108  FG6 V6G A   7      25.633  31.969  43.710  1.00  0.00           F  
+HETATM  109  HB  V6G A   7      22.642  31.546  44.827  1.00  0.00           H  
+HETATM  110  HA  V6G A   7      23.768  33.853  44.488  1.00  0.00           H  
+HETATM  111  C   V6G A   7      23.862  33.733  42.357  1.00  0.00           C  
+HETATM  112  O   V6G A   7      23.130  33.960  41.413  1.00  0.00           O  
+HETATM  113  N   V6G A   8      38.844  29.208  21.154  1.00  0.00           N  
+HETATM  114  H   V6G A   8      37.843  29.246  21.021  1.00  0.00           H  
+HETATM  115  CA  V6G A   8      39.593  29.752  22.285  1.00  0.00           C  
+HETATM  116  CB  V6G A   8      40.245  31.018  21.757  1.00  0.00           C  
+HETATM  117  CG1 V6G A   8      39.364  32.290  21.668  1.00  0.00           C  
+HETATM  118  FG1 V6G A   8      38.202  31.804  21.072  1.00  0.00           F  
+HETATM  119  FG2 V6G A   8      39.920  33.285  20.882  1.00  0.00           F  
+HETATM  120  FG3 V6G A   8      39.056  32.826  22.914  1.00  0.00           F  
+HETATM  121  CG2 V6G A   8      41.425  31.462  22.572  1.00  0.00           C  
+HETATM  122  FG4 V6G A   8      41.847  32.658  22.087  1.00  0.00           F  
+HETATM  123  FG5 V6G A   8      42.441  30.559  22.514  1.00  0.00           F  
+HETATM  124  FG6 V6G A   8      41.068  31.559  23.967  1.00  0.00           F  
+HETATM  125  HB  V6G A   8      40.578  30.742  20.756  1.00  0.00           H  
+HETATM  126  HA  V6G A   8      40.367  29.018  22.512  1.00  0.00           H  
+HETATM  127  C   V6G A   8      38.685  29.787  23.520  1.00  0.00           C  
+HETATM  128  O   V6G A   8      37.640  30.402  23.420  1.00  0.00           O  
+HETATM  129  N   V6G A   9      44.544  23.020  39.183  1.00  0.00           N  
+HETATM  130  H   V6G A   9      43.776  23.096  39.835  1.00  0.00           H  
+HETATM  131  CA  V6G A   9      45.947  22.937  39.704  1.00  0.00           C  
+HETATM  132  CB  V6G A   9      46.013  23.476  41.179  1.00  0.00           C  
+HETATM  133  CG1 V6G A   9      45.313  22.650  42.256  1.00  0.00           C  
+HETATM  134  FG1 V6G A   9      44.263  21.955  41.656  1.00  0.00           F  
+HETATM  135  FG2 V6G A   9      44.846  23.473  43.224  1.00  0.00           F  
+HETATM  136  FG3 V6G A   9      46.218  21.787  42.764  1.00  0.00           F  
+HETATM  137  CG2 V6G A   9      47.498  23.560  41.597  1.00  0.00           C  
+HETATM  138  FG4 V6G A   9      47.582  23.996  42.902  1.00  0.00           F  
+HETATM  139  FG5 V6G A   9      48.128  24.528  40.837  1.00  0.00           F  
+HETATM  140  FG6 V6G A   9      48.212  22.325  41.416  1.00  0.00           F  
+HETATM  141  HB  V6G A   9      45.664  24.505  41.097  1.00  0.00           H  
+HETATM  142  HA  V6G A   9      46.493  23.585  39.018  1.00  0.00           H  
+HETATM  143  C   V6G A   9      46.599  21.575  39.466  1.00  0.00           C  
+HETATM  144  O   V6G A   9      46.120  20.540  39.929  1.00  0.00           O  
+HETATM  145  N   V6G A  10      26.814  21.564  23.380  1.00  0.00           N  
+HETATM  146  H   V6G A  10      27.055  20.584  23.411  1.00  0.00           H  
+HETATM  147  CA  V6G A  10      27.187  22.309  22.180  1.00  0.00           C  
+HETATM  148  CB  V6G A  10      27.553  23.758  22.626  1.00  0.00           C  
+HETATM  149  CG1 V6G A  10      28.871  23.806  23.506  1.00  0.00           C  
+HETATM  150  FG1 V6G A  10      28.866  22.898  24.537  1.00  0.00           F  
+HETATM  151  FG2 V6G A  10      28.991  25.090  23.978  1.00  0.00           F  
+HETATM  152  FG3 V6G A  10      29.925  23.528  22.695  1.00  0.00           F  
+HETATM  153  CG2 V6G A  10      27.788  24.658  21.431  1.00  0.00           C  
+HETATM  154  FG4 V6G A  10      28.391  25.837  21.746  1.00  0.00           F  
+HETATM  155  FG5 V6G A  10      26.558  24.957  20.942  1.00  0.00           F  
+HETATM  156  FG6 V6G A  10      28.478  24.128  20.447  1.00  0.00           F  
+HETATM  157  HB  V6G A  10      26.736  24.143  23.235  1.00  0.00           H  
+HETATM  158  HA  V6G A  10      26.288  22.356  21.565  1.00  0.00           H  
+HETATM  159  C   V6G A  10      28.292  21.673  21.260  1.00  0.00           C  
+HETATM  160  O   V6G A  10      28.542  20.481  21.432  1.00  0.00           O  
+HETATM  161  N   V6G A  11      43.563  39.580  39.327  1.00  0.00           N  
+HETATM  162  H   V6G A  11      44.364  39.078  38.971  1.00  0.00           H  
+HETATM  163  CA  V6G A  11      42.447  39.608  38.442  1.00  0.00           C  
+HETATM  164  CB  V6G A  11      42.458  41.039  37.736  1.00  0.00           C  
+HETATM  165  CG1 V6G A  11      43.362  41.227  36.479  1.00  0.00           C  
+HETATM  166  FG1 V6G A  11      44.554  40.654  36.792  1.00  0.00           F  
+HETATM  167  FG2 V6G A  11      43.705  42.548  36.193  1.00  0.00           F  
+HETATM  168  FG3 V6G A  11      42.823  40.648  35.349  1.00  0.00           F  
+HETATM  169  CG2 V6G A  11      41.063  41.379  37.281  1.00  0.00           C  
+HETATM  170  FG4 V6G A  11      41.127  42.566  36.540  1.00  0.00           F  
+HETATM  171  FG5 V6G A  11      40.220  41.506  38.359  1.00  0.00           F  
+HETATM  172  FG6 V6G A  11      40.600  40.407  36.473  1.00  0.00           F  
+HETATM  173  HB  V6G A  11      42.797  41.839  38.395  1.00  0.00           H  
+HETATM  174  HA  V6G A  11      41.602  39.491  39.121  1.00  0.00           H  
+HETATM  175  C   V6G A  11      42.247  38.366  37.506  1.00  0.00           C  
+HETATM  176  O   V6G A  11      43.158  37.953  36.772  1.00  0.00           O  
+HETATM  177  N   V6G A  12      29.328  41.446  28.359  1.00  0.00           N  
+HETATM  178  H   V6G A  12      30.160  42.001  28.496  1.00  0.00           H  
+HETATM  179  CA  V6G A  12      28.748  41.121  27.134  1.00  0.00           C  
+HETATM  180  CB  V6G A  12      29.328  39.768  26.643  1.00  0.00           C  
+HETATM  181  CG1 V6G A  12      28.756  38.530  27.332  1.00  0.00           C  
+HETATM  182  FG1 V6G A  12      28.345  38.859  28.617  1.00  0.00           F  
+HETATM  183  FG2 V6G A  12      29.684  37.519  27.354  1.00  0.00           F  
+HETATM  184  FG3 V6G A  12      27.644  38.107  26.620  1.00  0.00           F  
+HETATM  185  CG2 V6G A  12      29.170  39.571  25.167  1.00  0.00           C  
+HETATM  186  FG4 V6G A  12      29.863  38.453  24.709  1.00  0.00           F  
+HETATM  187  FG5 V6G A  12      29.688  40.635  24.458  1.00  0.00           F  
+HETATM  188  FG6 V6G A  12      27.849  39.432  24.766  1.00  0.00           F  
+HETATM  189  HB  V6G A  12      30.404  39.792  26.814  1.00  0.00           H  
+HETATM  190  HA  V6G A  12      29.052  41.949  26.493  1.00  0.00           H  
+HETATM  191  C   V6G A  12      27.235  41.160  27.038  1.00  0.00           C  
+HETATM  192  O   V6G A  12      26.539  40.863  28.017  1.00  0.00           O  
+HETATM  193  N   V6G A  13      15.312  34.828  43.851  1.00  0.00           N  
+HETATM  194  H   V6G A  13      15.939  35.428  43.334  1.00  0.00           H  
+HETATM  195  CA  V6G A  13      15.107  34.937  45.297  1.00  0.00           C  
+HETATM  196  CB  V6G A  13      14.342  33.752  45.862  1.00  0.00           C  
+HETATM  197  CG1 V6G A  13      15.294  32.632  46.007  1.00  0.00           C  
+HETATM  198  FG1 V6G A  13      15.735  32.233  44.758  1.00  0.00           F  
+HETATM  199  FG2 V6G A  13      14.587  31.605  46.592  1.00  0.00           F  
+HETATM  200  FG3 V6G A  13      16.307  33.011  46.763  1.00  0.00           F  
+HETATM  201  CG2 V6G A  13      13.778  33.918  47.293  1.00  0.00           C  
+HETATM  202  FG4 V6G A  13      13.242  32.806  47.842  1.00  0.00           F  
+HETATM  203  FG5 V6G A  13      12.733  34.871  47.143  1.00  0.00           F  
+HETATM  204  FG6 V6G A  13      14.735  34.505  48.205  1.00  0.00           F  
+HETATM  205  HB  V6G A  13      13.493  33.422  45.263  1.00  0.00           H  
+HETATM  206  HA  V6G A  13      14.429  35.784  45.404  1.00  0.00           H  
+HETATM  207  C   V6G A  13      16.456  35.551  45.808  1.00  0.00           C  
+HETATM  208  O   V6G A  13      16.616  36.730  46.117  1.00  0.00           O  
+HETATM  209  N   V6G A  14      21.589  37.316  20.676  1.00  0.00           N  
+HETATM  210  H   V6G A  14      21.694  38.269  20.995  1.00  0.00           H  
+HETATM  211  CA  V6G A  14      20.623  36.403  21.263  1.00  0.00           C  
+HETATM  212  CB  V6G A  14      21.394  35.290  22.021  1.00  0.00           C  
+HETATM  213  CG1 V6G A  14      22.068  35.798  23.255  1.00  0.00           C  
+HETATM  214  FG1 V6G A  14      22.939  36.800  22.953  1.00  0.00           F  
+HETATM  215  FG2 V6G A  14      22.794  34.731  23.738  1.00  0.00           F  
+HETATM  216  FG3 V6G A  14      21.113  36.192  24.262  1.00  0.00           F  
+HETATM  217  CG2 V6G A  14      20.382  34.263  22.674  1.00  0.00           C  
+HETATM  218  FG4 V6G A  14      21.083  33.096  23.118  1.00  0.00           F  
+HETATM  219  FG5 V6G A  14      19.638  33.983  21.620  1.00  0.00           F  
+HETATM  220  FG6 V6G A  14      19.557  34.822  23.637  1.00  0.00           F  
+HETATM  221  HB  V6G A  14      22.018  34.784  21.283  1.00  0.00           H  
+HETATM  222  HA  V6G A  14      19.988  35.972  20.489  1.00  0.00           H  
+HETATM  223  C   V6G A  14      19.597  37.211  22.127  1.00  0.00           C  
+HETATM  224  O   V6G A  14      19.858  38.282  22.698  1.00  0.00           O  
+HETATM  225  N   V6G A  15      40.780  22.896  35.770  1.00  0.00           N  
+HETATM  226  H   V6G A  15      39.820  22.852  36.081  1.00  0.00           H  
+HETATM  227  CA  V6G A  15      41.427  21.597  35.541  1.00  0.00           C  
+HETATM  228  CB  V6G A  15      41.808  21.494  34.079  1.00  0.00           C  
+HETATM  229  CG1 V6G A  15      42.785  22.523  33.558  1.00  0.00           C  
+HETATM  230  FG1 V6G A  15      42.160  23.777  33.326  1.00  0.00           F  
+HETATM  231  FG2 V6G A  15      43.415  22.123  32.440  1.00  0.00           F  
+HETATM  232  FG3 V6G A  15      43.764  22.776  34.448  1.00  0.00           F  
+HETATM  233  CG2 V6G A  15      42.374  20.141  33.784  1.00  0.00           C  
+HETATM  234  FG4 V6G A  15      42.322  19.875  32.392  1.00  0.00           F  
+HETATM  235  FG5 V6G A  15      41.725  19.101  34.448  1.00  0.00           F  
+HETATM  236  FG6 V6G A  15      43.731  20.143  34.151  1.00  0.00           F  
+HETATM  237  HB  V6G A  15      40.896  21.593  33.491  1.00  0.00           H  
+HETATM  238  HA  V6G A  15      40.697  20.797  35.660  1.00  0.00           H  
+HETATM  239  C   V6G A  15      42.535  21.501  36.570  1.00  0.00           C  
+HETATM  240  O   V6G A  15      43.050  20.432  36.912  1.00  0.00           O  
+HETATM  241  N   V6G A  16      19.146  18.323  38.365  1.00  0.00           N  
+HETATM  242  H   V6G A  16      19.658  18.924  38.995  1.00  0.00           H  
+HETATM  243  CA  V6G A  16      17.951  17.745  38.947  1.00  0.00           C  
+HETATM  244  CB  V6G A  16      18.244  16.738  40.010  1.00  0.00           C  
+HETATM  245  CG1 V6G A  16      19.197  17.101  41.186  1.00  0.00           C  
+HETATM  246  FG1 V6G A  16      20.338  17.816  40.694  1.00  0.00           F  
+HETATM  247  FG2 V6G A  16      19.608  15.971  41.772  1.00  0.00           F  
+HETATM  248  FG3 V6G A  16      18.505  17.964  42.074  1.00  0.00           F  
+HETATM  249  CG2 V6G A  16      16.996  16.051  40.582  1.00  0.00           C  
+HETATM  250  FG4 V6G A  16      17.250  15.120  41.522  1.00  0.00           F  
+HETATM  251  FG5 V6G A  16      16.152  15.518  39.560  1.00  0.00           F  
+HETATM  252  FG6 V6G A  16      16.337  17.047  41.320  1.00  0.00           F  
+HETATM  253  HB  V6G A  16      18.849  15.906  39.649  1.00  0.00           H  
+HETATM  254  HA  V6G A  16      17.417  17.175  38.187  1.00  0.00           H  
+HETATM  255  C   V6G A  16      17.042  18.829  39.441  1.00  0.00           C  
+HETATM  256  O   V6G A  16      16.177  19.294  38.690  1.00  0.00           O  
+HETATM  257  N   V6G A  17      44.869  43.716  20.879  1.00  0.00           N  
+HETATM  258  H   V6G A  17      44.948  42.718  20.743  1.00  0.00           H  
+HETATM  259  CA  V6G A  17      44.358  44.434  19.749  1.00  0.00           C  
+HETATM  260  CB  V6G A  17      42.913  44.048  19.391  1.00  0.00           C  
+HETATM  261  CG1 V6G A  17      41.913  44.559  20.373  1.00  0.00           C  
+HETATM  262  FG1 V6G A  17      41.977  43.752  21.543  1.00  0.00           F  
+HETATM  263  FG2 V6G A  17      40.655  44.446  19.813  1.00  0.00           F  
+HETATM  264  FG3 V6G A  17      42.092  45.910  20.603  1.00  0.00           F  
+HETATM  265  CG2 V6G A  17      42.534  44.352  17.962  1.00  0.00           C  
+HETATM  266  FG4 V6G A  17      41.322  43.905  17.481  1.00  0.00           F  
+HETATM  267  FG5 V6G A  17      43.523  44.001  17.147  1.00  0.00           F  
+HETATM  268  FG6 V6G A  17      42.520  45.759  18.026  1.00  0.00           F  
+HETATM  269  HB  V6G A  17      42.898  42.961  19.472  1.00  0.00           H  
+HETATM  270  HA  V6G A  17      44.920  44.104  18.875  1.00  0.00           H  
+HETATM  271  C   V6G A  17      44.696  45.934  19.868  1.00  0.00           C  
+HETATM  272  O   V6G A  17      45.612  46.367  19.188  1.00  0.00           O  
+HETATM  273  N   V6G A  18      35.172  46.117  22.815  1.00  0.00           N  
+HETATM  274  H   V6G A  18      35.465  45.328  23.374  1.00  0.00           H  
+HETATM  275  CA  V6G A  18      35.958  47.389  22.945  1.00  0.00           C  
+HETATM  276  CB  V6G A  18      34.981  48.645  22.757  1.00  0.00           C  
+HETATM  277  CG1 V6G A  18      33.862  48.955  23.781  1.00  0.00           C  
+HETATM  278  FG1 V6G A  18      33.458  47.893  24.495  1.00  0.00           F  
+HETATM  279  FG2 V6G A  18      32.759  49.423  23.082  1.00  0.00           F  
+HETATM  280  FG3 V6G A  18      34.367  49.991  24.585  1.00  0.00           F  
+HETATM  281  CG2 V6G A  18      35.692  49.950  22.592  1.00  0.00           C  
+HETATM  282  FG4 V6G A  18      34.781  50.938  22.394  1.00  0.00           F  
+HETATM  283  FG5 V6G A  18      36.580  49.818  21.536  1.00  0.00           F  
+HETATM  284  FG6 V6G A  18      36.387  50.175  23.727  1.00  0.00           F  
+HETATM  285  HB  V6G A  18      34.444  48.352  21.855  1.00  0.00           H  
+HETATM  286  HA  V6G A  18      36.752  47.412  22.199  1.00  0.00           H  
+HETATM  287  C   V6G A  18      36.765  47.437  24.280  1.00  0.00           C  
+HETATM  288  O   V6G A  18      36.139  47.695  25.332  1.00  0.00           O  
+HETATM  289  N   V6G A  19      39.150  43.738  45.515  1.00  0.00           N  
+HETATM  290  H   V6G A  19      39.306  42.848  45.965  1.00  0.00           H  
+HETATM  291  CA  V6G A  19      40.297  44.470  44.965  1.00  0.00           C  
+HETATM  292  CB  V6G A  19      39.869  45.935  44.748  1.00  0.00           C  
+HETATM  293  CG1 V6G A  19      40.171  46.811  45.930  1.00  0.00           C  
+HETATM  294  FG1 V6G A  19      39.332  46.473  46.994  1.00  0.00           F  
+HETATM  295  FG2 V6G A  19      39.972  48.125  45.702  1.00  0.00           F  
+HETATM  296  FG3 V6G A  19      41.462  46.725  46.431  1.00  0.00           F  
+HETATM  297  CG2 V6G A  19      40.595  46.567  43.626  1.00  0.00           C  
+HETATM  298  FG4 V6G A  19      40.351  47.917  43.535  1.00  0.00           F  
+HETATM  299  FG5 V6G A  19      40.092  45.943  42.502  1.00  0.00           F  
+HETATM  300  FG6 V6G A  19      41.944  46.424  43.669  1.00  0.00           F  
+HETATM  301  HB  V6G A  19      38.825  46.147  44.517  1.00  0.00           H  
+HETATM  302  HA  V6G A  19      40.495  44.056  43.977  1.00  0.00           H  
+HETATM  303  C   V6G A  19      41.630  44.106  45.657  1.00  0.00           C  
+HETATM  304  O   V6G A  19      41.626  43.814  46.875  1.00  0.00           O  
+HETATM  305  N   V6G A  20      37.095  21.913  25.861  1.00  0.00           N  
+HETATM  306  H   V6G A  20      36.809  22.193  26.789  1.00  0.00           H  
+HETATM  307  CA  V6G A  20      36.617  22.563  24.672  1.00  0.00           C  
+HETATM  308  CB  V6G A  20      35.105  22.786  24.704  1.00  0.00           C  
+HETATM  309  CG1 V6G A  20      34.681  23.880  25.658  1.00  0.00           C  
+HETATM  310  FG1 V6G A  20      35.486  24.039  26.758  1.00  0.00           F  
+HETATM  311  FG2 V6G A  20      33.372  23.639  26.039  1.00  0.00           F  
+HETATM  312  FG3 V6G A  20      34.702  25.138  25.067  1.00  0.00           F  
+HETATM  313  CG2 V6G A  20      34.467  22.909  23.314  1.00  0.00           C  
+HETATM  314  FG4 V6G A  20      33.079  23.013  23.345  1.00  0.00           F  
+HETATM  315  FG5 V6G A  20      34.832  21.830  22.492  1.00  0.00           F  
+HETATM  316  FG6 V6G A  20      34.987  24.123  22.735  1.00  0.00           F  
+HETATM  317  HB  V6G A  20      34.665  21.876  25.112  1.00  0.00           H  
+HETATM  318  HA  V6G A  20      36.803  21.929  23.806  1.00  0.00           H  
+HETATM  319  C   V6G A  20      37.396  23.857  24.306  1.00  0.00           C  
+HETATM  320  O   V6G A  20      37.604  24.759  25.126  1.00  0.00           O  
+TER     321      V6G A  20
+CONECT    1    2    3
+CONECT    2    1
+CONECT    3   14    4   15    1
+CONECT    4   13    5    9    3
+CONECT    5    6    7    8    4
+CONECT    6    5
+CONECT    7    5
+CONECT    8    5
+CONECT    9   10   11   12    4
+CONECT   10    9
+CONECT   11    9
+CONECT   12    9
+CONECT   13    4
+CONECT   14    3
+CONECT   15   16    3
+CONECT   16   15
+CONECT   17   18   19
+CONECT   18   17
+CONECT   19   30   20   31   17
+CONECT   20   29   21   25   19
+CONECT   21   22   23   24   20
+CONECT   22   21
+CONECT   23   21
+CONECT   24   21
+CONECT   25   26   27   28   20
+CONECT   26   25
+CONECT   27   25
+CONECT   28   25
+CONECT   29   20
+CONECT   30   19
+CONECT   31   32   19
+CONECT   32   31
+CONECT   33   34   35
+CONECT   34   33
+CONECT   35   46   36   47   33
+CONECT   36   45   37   41   35
+CONECT   37   38   39   40   36
+CONECT   38   37
+CONECT   39   37
+CONECT   40   37
+CONECT   41   42   43   44   36
+CONECT   42   41
+CONECT   43   41
+CONECT   44   41
+CONECT   45   36
+CONECT   46   35
+CONECT   47   48   35
+CONECT   48   47
+CONECT   49   50   51
+CONECT   50   49
+CONECT   51   62   52   63   49
+CONECT   52   61   53   57   51
+CONECT   53   54   55   56   52
+CONECT   54   53
+CONECT   55   53
+CONECT   56   53
+CONECT   57   58   59   60   52
+CONECT   58   57
+CONECT   59   57
+CONECT   60   57
+CONECT   61   52
+CONECT   62   51
+CONECT   63   64   51
+CONECT   64   63
+CONECT   65   66   67
+CONECT   66   65
+CONECT   67   78   68   79   65
+CONECT   68   77   69   73   67
+CONECT   69   70   71   72   68
+CONECT   70   69
+CONECT   71   69
+CONECT   72   69
+CONECT   73   74   75   76   68
+CONECT   74   73
+CONECT   75   73
+CONECT   76   73
+CONECT   77   68
+CONECT   78   67
+CONECT   79   80   67
+CONECT   80   79
+CONECT   81   82   83
+CONECT   82   81
+CONECT   83   94   84   95   81
+CONECT   84   93   85   89   83
+CONECT   85   86   87   88   84
+CONECT   86   85
+CONECT   87   85
+CONECT   88   85
+CONECT   89   90   91   92   84
+CONECT   90   89
+CONECT   91   89
+CONECT   92   89
+CONECT   93   84
+CONECT   94   83
+CONECT   95   96   83
+CONECT   96   95
+CONECT   97   98   99
+CONECT   98   97
+CONECT   99  110  100  111   97
+CONECT  100  109  101  105   99
+CONECT  101  102  103  104  100
+CONECT  102  101
+CONECT  103  101
+CONECT  104  101
+CONECT  105  106  107  108  100
+CONECT  106  105
+CONECT  107  105
+CONECT  108  105
+CONECT  109  100
+CONECT  110   99
+CONECT  111  112   99
+CONECT  112  111
+CONECT  113  114  115
+CONECT  114  113
+CONECT  115  126  116  127  113
+CONECT  116  125  117  121  115
+CONECT  117  118  119  120  116
+CONECT  118  117
+CONECT  119  117
+CONECT  120  117
+CONECT  121  122  123  124  116
+CONECT  122  121
+CONECT  123  121
+CONECT  124  121
+CONECT  125  116
+CONECT  126  115
+CONECT  127  128  115
+CONECT  128  127
+CONECT  129  130  131
+CONECT  130  129
+CONECT  131  142  132  143  129
+CONECT  132  141  133  137  131
+CONECT  133  134  135  136  132
+CONECT  134  133
+CONECT  135  133
+CONECT  136  133
+CONECT  137  138  139  140  132
+CONECT  138  137
+CONECT  139  137
+CONECT  140  137
+CONECT  141  132
+CONECT  142  131
+CONECT  143  144  131
+CONECT  144  143
+CONECT  145  146  147
+CONECT  146  145
+CONECT  147  158  148  159  145
+CONECT  148  157  149  153  147
+CONECT  149  150  151  152  148
+CONECT  150  149
+CONECT  151  149
+CONECT  152  149
+CONECT  153  154  155  156  148
+CONECT  154  153
+CONECT  155  153
+CONECT  156  153
+CONECT  157  148
+CONECT  158  147
+CONECT  159  160  147
+CONECT  160  159
+CONECT  161  162  163
+CONECT  162  161
+CONECT  163  174  164  175  161
+CONECT  164  173  165  169  163
+CONECT  165  166  167  168  164
+CONECT  166  165
+CONECT  167  165
+CONECT  168  165
+CONECT  169  170  171  172  164
+CONECT  170  169
+CONECT  171  169
+CONECT  172  169
+CONECT  173  164
+CONECT  174  163
+CONECT  175  176  163
+CONECT  176  175
+CONECT  177  178  179
+CONECT  178  177
+CONECT  179  190  180  191  177
+CONECT  180  189  181  185  179
+CONECT  181  182  183  184  180
+CONECT  182  181
+CONECT  183  181
+CONECT  184  181
+CONECT  185  186  187  188  180
+CONECT  186  185
+CONECT  187  185
+CONECT  188  185
+CONECT  189  180
+CONECT  190  179
+CONECT  191  192  179
+CONECT  192  191
+CONECT  193  194  195
+CONECT  194  193
+CONECT  195  206  196  207  193
+CONECT  196  205  197  201  195
+CONECT  197  198  199  200  196
+CONECT  198  197
+CONECT  199  197
+CONECT  200  197
+CONECT  201  202  203  204  196
+CONECT  202  201
+CONECT  203  201
+CONECT  204  201
+CONECT  205  196
+CONECT  206  195
+CONECT  207  208  195
+CONECT  208  207
+CONECT  209  210  211
+CONECT  210  209
+CONECT  211  222  212  223  209
+CONECT  212  221  213  217  211
+CONECT  213  214  215  216  212
+CONECT  214  213
+CONECT  215  213
+CONECT  216  213
+CONECT  217  218  219  220  212
+CONECT  218  217
+CONECT  219  217
+CONECT  220  217
+CONECT  221  212
+CONECT  222  211
+CONECT  223  224  211
+CONECT  224  223
+CONECT  225  226  227
+CONECT  226  225
+CONECT  227  238  228  239  225
+CONECT  228  237  229  233  227
+CONECT  229  230  231  232  228
+CONECT  230  229
+CONECT  231  229
+CONECT  232  229
+CONECT  233  234  235  236  228
+CONECT  234  233
+CONECT  235  233
+CONECT  236  233
+CONECT  237  228
+CONECT  238  227
+CONECT  239  240  227
+CONECT  240  239
+CONECT  241  242  243
+CONECT  242  241
+CONECT  243  254  244  255  241
+CONECT  244  253  245  249  243
+CONECT  245  246  247  248  244
+CONECT  246  245
+CONECT  247  245
+CONECT  248  245
+CONECT  249  250  251  252  244
+CONECT  250  249
+CONECT  251  249
+CONECT  252  249
+CONECT  253  244
+CONECT  254  243
+CONECT  255  256  243
+CONECT  256  255
+CONECT  257  258  259
+CONECT  258  257
+CONECT  259  270  260  271  257
+CONECT  260  269  261  265  259
+CONECT  261  262  263  264  260
+CONECT  262  261
+CONECT  263  261
+CONECT  264  261
+CONECT  265  266  267  268  260
+CONECT  266  265
+CONECT  267  265
+CONECT  268  265
+CONECT  269  260
+CONECT  270  259
+CONECT  271  272  259
+CONECT  272  271
+CONECT  273  274  275
+CONECT  274  273
+CONECT  275  286  276  287  273
+CONECT  276  285  277  281  275
+CONECT  277  278  279  280  276
+CONECT  278  277
+CONECT  279  277
+CONECT  280  277
+CONECT  281  282  283  284  276
+CONECT  282  281
+CONECT  283  281
+CONECT  284  281
+CONECT  285  276
+CONECT  286  275
+CONECT  287  288  275
+CONECT  288  287
+CONECT  289  290  291
+CONECT  290  289
+CONECT  291  302  292  303  289
+CONECT  292  301  293  297  291
+CONECT  293  294  295  296  292
+CONECT  294  293
+CONECT  295  293
+CONECT  296  293
+CONECT  297  298  299  300  292
+CONECT  298  297
+CONECT  299  297
+CONECT  300  297
+CONECT  301  292
+CONECT  302  291
+CONECT  303  304  291
+CONECT  304  303
+CONECT  305  306  307
+CONECT  306  305
+CONECT  307  318  308  319  305
+CONECT  308  317  309  313  307
+CONECT  309  310  311  312  308
+CONECT  310  309
+CONECT  311  309
+CONECT  312  309
+CONECT  313  314  315  316  308
+CONECT  314  313
+CONECT  315  313
+CONECT  316  313
+CONECT  317  308
+CONECT  318  307
+CONECT  319  320  307
+CONECT  320  319
+END
