@@ -183,7 +183,6 @@ def _process_system_worker(args):
     except FilenameParseError as e:
         raise RuntimeError(f"Cannot parse filename {pdb_path!r}: {e}") from e
 
-    # Prefer multi-segment list, fall back to single traj
     traj_paths = info.get("trajectory_paths")
     traj_path_single = info.get("trajectory_path")
 
@@ -196,11 +195,9 @@ def _process_system_worker(args):
             f"Could not find trajectory file(s) corresponding to {pdb_path!r}"
         )
 
-    # Apply trajectory cap: traj = first, traj1 = second, etc.
     if traj_cap is not None and traj_cap > 0:
         traj_inputs = traj_inputs[:traj_cap]
 
-    # Filter out any _water_lastframe DCDs if they appear
     filtered_traj_inputs = []
     for t in traj_inputs:
         name = Path(t).name
@@ -224,7 +221,6 @@ def _process_system_worker(args):
     fluor_pct = info["fluorination_percent"]
     placement = info.get("fluorine_placement")
 
-    # md.load will concatenate the segments
     traj = prepare_traj_with_pbc(pdb_path, filtered_traj_inputs)
 
     _, sasa_per_mol, fluorinated_mask = compute_sasa_per_molecule(

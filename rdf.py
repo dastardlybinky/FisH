@@ -52,8 +52,7 @@ def prepare_traj_with_pbc(topology, trajectory):
     return traj
 
 
-def _get_residue_representatives(traj, selection="not resname HOH",
-                                 chain_length=None, chunked_chains=False):
+def _get_residue_representatives(traj, selection="not resname HOH",chain_length=None, chunked_chains=False):
     """
     Treat each *residue* (within the selection) as one RDF particle.
 
