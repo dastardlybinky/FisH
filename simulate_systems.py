@@ -109,7 +109,7 @@ def simulate(prmtop_file, inpcrd_file, device_mode, gpu_id, output_dir, continue
         )
     )
 
-    simulation.step(5000000)
+    simulation.step(5000000) #5000000 in 10ns
 
     simulation.saveCheckpoint(checkpoint_file)
 
