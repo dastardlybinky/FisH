@@ -75,44 +75,6 @@ def simulate(prmtop_file, inpcrd_file, device_mode, gpu_id, output_dir, continue
     checkpoint_file = os.path.join(output_dir, f"{base}.chk")
     water_dcd_out = os.path.join(output_dir, f"{base}_water_lastframe.dcd")
 
-    print(f"[{base}] Writing trajectory to {dcd_out}")
-
-    if continue_mode and os.path.exists(checkpoint_file):
-        print(f"[{base}] Found checkpoint and --continue specified, resuming from {checkpoint_file}")
-        simulation.loadCheckpoint(checkpoint_file)
-    else:
-        if continue_mode and not os.path.exists(checkpoint_file):
-            print(f"[{base}] --continue specified but no checkpoint found; starting new simulation")
-        else:
-            print(f"[{base}] Starting new simulation (not using checkpoints)")
-        simulation.context.setPositions(positions)
-        if box_vectors is not None:
-            simulation.context.setPeriodicBoxVectors(*box_vectors)
-        simulation.minimizeEnergy()
-
-    simulation.reporters.append(
-        StateDataReporter(
-            sys.stdout,
-            1000000,
-            step=True,
-            potentialEnergy=True,
-            temperature=True,
-            speed=True,
-        )
-    )
-
-    simulation.reporters.append(
-        MDTrajDCDReporter(
-            dcd_out,
-            25000,
-            atomSubset=solute_atom_indices,
-        )
-    )
-
-    simulation.step(5000000)
-
-    simulation.saveCheckpoint(checkpoint_file)
-
     state = simulation.context.getState(getPositions=True, enforcePeriodicBox=True)
     all_positions = state.getPositions()
 
