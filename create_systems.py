@@ -384,7 +384,7 @@ def create_systems(
 if __name__ == "__main__":
     input_dir = "input_files"
     num_systems = 5
-    num_replicas = 20
+    num_replicas = 25
     box_size = 3
     output_dir = "systems"
     solo_dir = os.path.join(output_dir, "solo_sys")
